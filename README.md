@@ -33,13 +33,6 @@ python -m bb_strategy.live.vps_check     # VPS readiness check
 python -m bb_strategy.live.keep_alive    # Keep-alive with auto-restart
 ```
 
-## CI/CD
-
-GitHub Actions runs on every push/PR to `main`:
-
-- **test**: pytest on Python 3.11 and 3.12
-- **vps-check**: System readiness validation
-
 ## Documentation
 
 See [CONTEXT.md](CONTEXT.md) for full architecture, parameters, and phase history.
